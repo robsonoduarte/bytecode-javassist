@@ -9,11 +9,11 @@ bytecode-javassist
 
 RUN THE TEST:
 
--add this argumentes for JVM:
+* add this argumentes for JVM:
 
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
 
-for more information about this arguments see:
+* for more information about this arguments see:
 
 http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/html/javassist/util/HotSwapper.html
 
