@@ -9,7 +9,7 @@ bytecode-javassist
 
 RUN THE TEST:
 
-* add this argumentes for JVM:
+* add this arguments for JVM:
 
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
 
