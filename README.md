@@ -7,7 +7,7 @@ bytecode-javassist
 
 
 
-RUN THE TEST:
+*RUN THE TEST*:
 
 * add this arguments for JVM:
 
