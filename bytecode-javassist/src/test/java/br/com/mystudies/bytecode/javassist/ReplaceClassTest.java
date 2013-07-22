@@ -6,39 +6,30 @@ import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TempTest {
+public class ReplaceClassTest {
 
-	private Temp temp;
+	
+	private ReplaceClass replaceClass;
 
 
 
 	@Before
 	public void setUp() throws Exception {
-		temp = new Temp();
+		replaceClass = new ReplaceClass();
 	}
 	
-	
-
-/*	@After
-	public void tearDown() throws Exception {
-	}*/
 
 	
 	
 	@Test
 	public void test() throws Exception {
 		
-		temp.replace();
-		
-		
 		Service service = new Service();
 		
+		replaceClass.replaceBodyMethod();
+		
 		assertThat(service.execute("service"), equalTo("ADAPTER SERVICE"));
-		
-		
 	}
-	
-	
 	
 
 }
